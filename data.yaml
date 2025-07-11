@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Bad Conductors', 'Bad Insulators', 'Insulators']
+
+roboflow:
+  workspace: powerlineinspectiontusproject
+  project: power-inspection-ap218
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/powerlineinspectiontusproject/power-inspection-ap218/dataset/1
